@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+@import "./assets/css/user-information.css";
+@import "./assets/css/student.css";
+@import "./assets/css/admin.css";
+@import "./assets/css/my-class.css";
+@import "./assets/css/statistics.css";
+@import "./assets/css/course.css";
+@import "./assets/css/portfolio.css";
+@import "./assets/css/certificate.css";
+@import "./assets/css/active-class.css";
+@import "./assets/css/inprogress.css";
+@import "./assets/css/class-collection.css";
+@import "./assets/css/submission.css";
+@import "./assets/css/checkout.css";
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#dropdown-basic {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
 }
