@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Brand from '../assets/img/logo.jpeg';
+import Brand from '../assets/img/logo.png';
 
 class Login extends Component {
   render() {

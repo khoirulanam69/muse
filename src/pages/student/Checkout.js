@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import TopbarClassCollection from '../../components/student/TopBarClassCollection';
 
-import Img from '../../assets/img/logo.jpeg';
+import Img from '../../assets/img/logo.png';
 
 class Checkout extends Component {
     render() {

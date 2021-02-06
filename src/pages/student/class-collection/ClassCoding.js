@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import Img from '../../../assets/img/logo.jpeg';
+import Img from '../../../assets/img/logo.png';
 
 class ClassCoding extends Component {
     render() {
